@@ -1,0 +1,15 @@
+.wiki {
+  border: 9px solid ;
+  border-width: 50%;
+  border-color: blue;
+  margin-left: 1000px;
+  margin-top: 100px;
+  width: 400px;
+  padding: 40px;
+  font-size: 12px
+
+}
+h1 {
+  display: inline;
+
+}

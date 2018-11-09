@@ -1,0 +1,9 @@
+body{
+  background-color: black;
+  background-image: ;
+  text-align: center;
+  margin: 30px 30px 30px;
+
+}
+.yosemite a p {display:none;}
+.yosemite a:hover p {display: block;}
