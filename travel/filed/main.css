@@ -2,8 +2,8 @@
   position: fixed;
   width: 250px;
   height: 250px;
-  left: 1400px;
-  margin-top: 155px;
+  left: 1000px;
+  margin-top: 165px;
 
 }
 
@@ -29,7 +29,7 @@ body {
 .popup {
     position: fixed;
     margin-top: 110px;
-    margin-left: 1460px;
+    margin-left: 1060px;
     display: inline-block;
     cursor: pointer;
     -webkit-user-select: none;
