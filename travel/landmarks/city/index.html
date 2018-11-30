@@ -16,79 +16,19 @@
 
   </head>
   <body>
+    <!-- The video -->
+<video autoplay muted loop id="myVideo">
+  <source src="city.mp4" type="video/mp4">
+</video>
 
-  <div id="myDIV" class="header">
-    <h2 style="margin:5px">Where to explore next? (checklist)</h2>
-    <input type="text" id="myInput" placeholder="Title...">
-    <span onclick="newElement()" class="addBtn">Add</span>
-  </div>
+<!-- Optional: some overlay text to describe the video -->
+<div class="content">
+  <h1>City Hall</h1>
+  <p style="font-size:150%;" > City Hall is located on the edge of the Financial District. It
+    overlooks much of downtown. It is the symbol of government in the city. The current Mayor has promised a lot from restoring
+The One Church to expanding towards The Waste. But if you ask me, I hope he brings rent down. </p>
+</div>
 
-  <ul id="myUL">
-    <li>Deserted City</li>
-    <li class="checked">Pink Forrest</li>
-    <li>Thousand Isles</li>
-    <li>Snow Peak Mountains</li>
-    <li>Lowly Marshes</li>
-    <li>Downtown Clubbing</li>
-  </ul>
-
-  <script>
-  // Create a "close" button and append it to each list item
-  var myNodelist = document.getElementsByTagName("LI");
-  var i;
-  for (i = 0; i < myNodelist.length; i++) {
-    var span = document.createElement("SPAN");
-    var txt = document.createTextNode("\u00D7");
-    span.className = "close";
-    span.appendChild(txt);
-    myNodelist[i].appendChild(span);
-  }
-
-  // Click on a close button to hide the current list item
-  var close = document.getElementsByClassName("close");
-  var i;
-  for (i = 0; i < close.length; i++) {
-    close[i].onclick = function() {
-      var div = this.parentElement;
-      div.style.display = "none";
-    }
-  }
-
-  // Add a "checked" symbol when clicking on a list item
-  var list = document.querySelector('ul');
-  list.addEventListener('click', function(ev) {
-    if (ev.target.tagName === 'LI') {
-      ev.target.classList.toggle('checked');
-    }
-  }, false);
-
-  // Create a new list item when clicking on the "Add" button
-  function newElement() {
-    var li = document.createElement("li");
-    var inputValue = document.getElementById("myInput").value;
-    var t = document.createTextNode(inputValue);
-    li.appendChild(t);
-    if (inputValue === '') {
-      alert("You must write something!");
-    } else {
-      document.getElementById("myUL").appendChild(li);
-    }
-    document.getElementById("myInput").value = "";
-
-    var span = document.createElement("SPAN");
-    var txt = document.createTextNode("\u00D7");
-    span.className = "close";
-    span.appendChild(txt);
-    li.appendChild(span);
-
-    for (i = 0; i < close.length; i++) {
-      close[i].onclick = function() {
-        var div = this.parentElement;
-        div.style.display = "none";
-      }
-    }
-  }
-  </script>
 
   </body>
   </html>

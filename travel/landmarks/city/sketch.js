@@ -1,4 +1,6 @@
-function clickmap(info) {
-              alert(info)
+<script>
+// Get the video
+var video = document.getElementById("myVideo");
 
-          }
+}
+</script>
