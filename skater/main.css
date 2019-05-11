@@ -1,0 +1,57 @@
+
+body, html {
+	height: 100%;
+	width: 100%;
+}
+body {
+	background-image: url("images/pink.gif");
+	text-align:center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h1 {
+	color: red;
+}
+h2 {
+	color: pink;
+}
+h3 {
+	color: yellow;
+}
+h4 {
+	color: blue;
+}
+
+#div1 {
+
+  position: absolute;
+  left: 70px;
+  width: 300px;
+  padding: 10px;
+	top: 25%;
+
+}
+
+#div3 {
+position: absolute;
+right: 280px;
+width: 300px;
+padding: 10px;
+top: 20%;
+}
+
+#div2 {
+	position: relative;
+ 	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	padding: 10px;
+	top: 23%
+
+
+}
+#div4 {
+	margin: 5%;
+	padding: 6px;
+	clear: both;
+}
