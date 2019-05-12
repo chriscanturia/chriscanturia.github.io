@@ -11,7 +11,7 @@ body, html {
 
 .gif {
   position: relative;
-  bottom: 0px;
+  bottom:-10px;
   left: 400px;
   width: ;
 }

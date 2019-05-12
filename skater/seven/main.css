@@ -11,21 +11,17 @@ body, html {
 
 .gif {
   position: relative;
-  bottom: 0px;
-  left: 400px;
+  bottom: -10px;
+  left: 600px;
   width: ;
 }
 
 .gif2 {
   position: relative;
   bottom: 180px;
-  left: 700px;
+  left: 900px;
   width: ;
 }
 
-.gif3 {
-  position: relative;
-  bottom: 380px;
-  left: 1000px;
-  width: ;
+
 }
