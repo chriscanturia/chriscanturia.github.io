@@ -23,5 +23,12 @@ body, html {
   width: ;
 }
 
-
+.button {
+  background-color: ;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
 }
