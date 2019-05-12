@@ -3,6 +3,12 @@ body, html {
   width: 100%;
 }
 
+body {
+  background-image: url("../images/gif/giphy (1).gif");
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
 .center {
   margin-left: auto;
   margin-right: auto;
@@ -11,7 +17,7 @@ body, html {
 
 .gif {
   position: relative;
-  bottom:-10px;
+  bottom:-20px;
   left: 400px;
   width: ;
 }
