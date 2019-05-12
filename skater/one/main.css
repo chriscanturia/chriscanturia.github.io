@@ -15,22 +15,22 @@ body {
 }
 
 .gif {
-  position: relative;
+  position: absolute;
   bottom: -20px;
   left: 400px;
   width: ;
 }
 
 .gif2 {
-  position: relative;
-  bottom: 180px;
+  position: absolute;
+  bottom: -20px;
   left: 700px;
   width: ;
 }
 
 .gif3 {
-  position: relative;
-  bottom: 380px;
+  position: absolute;
+  bottom: -20px;
   left: 1000px;
   width: ;
 }
