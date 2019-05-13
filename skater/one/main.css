@@ -18,20 +18,20 @@ body {
 .gif {
   position: absolute;
   margin-left: 20%;
-  bottom: -20px;
+  bottom: 2%;
   width: 100% ;
 }
 
 .gif2 {
   position: absolute;
-  bottom: -20px;
+  bottom: 2%;
   margin-left: 43.5%;
   width: 100%;
 }
 
 .gif3 {
   position: absolute;
-  bottom: -20px;
+  bottom: 2%;
   margin-left: 67%;
   width: 100%;
 }
