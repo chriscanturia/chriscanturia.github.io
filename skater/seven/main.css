@@ -15,17 +15,17 @@ body {
 }
 
 .gif {
-  position: relative;
-  bottom: -20px;
-  left: 600px;
-  width: ;
+  position: absolute;
+  bottom: 2%;
+  left: 35%;
+  width: 100%;
 }
 
 .gif2 {
-  position: relative;
-  bottom: 180px;
-  left: 900px;
-  width: ;
+  position: absolute;
+  bottom: 2%;
+  left: 53%;
+  width: 100%;
 }
 
 .button {
