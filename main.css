@@ -92,6 +92,12 @@ portfolio entries */
   padding: 40px;
   background-color: #f7f7f7;
 }
+
+.portfolio-item10 {
+  margin-top: 150px;
+  padding: 40px;
+  background-color: #f7f7f7;
+}
 /* The embed-container class is for iframes containing content from Vimeo. This will allow videos to resize when the window is scaled, making this site mobile-friendly! */
 
 .embed-container {
